@@ -1,0 +1,54 @@
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(218, 218, 218);
+    margin: 10px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+.sub-item {
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+strong {
+    padding-bottom: 4px;
+}
+input[type=text], 
+input[type=email], 
+input[type=date], 
+input[type=tel], 
+textarea,
+button {
+    
+    margin-bottom: 15px; 
+    height: 30px;
+    border: 1px solid blanchedalmond;
+}
+
+textarea{
+    height: 70px;
+}
+
+button {
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+button:hover {
+    background-color: rgb(132, 130, 127);
+}
